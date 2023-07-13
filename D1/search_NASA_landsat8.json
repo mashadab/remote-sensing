@@ -1,0 +1,760 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "id": "HLS.L30.T18TWL.2021039T153324.v2.0",
+      "properties": {
+        "eo:cloud_cover": 6,
+        "datetime": "2021-02-08T15:33:24.028000Z",
+        "start_datetime": "2021-02-08T15:33:24.028Z",
+        "end_datetime": "2021-02-08T15:33:47.911Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.7033626,
+              40.5554731
+            ],
+            [
+              -73.6837996,
+              41.5443115
+            ],
+            [
+              -74.0909006,
+              41.548251
+            ],
+            [
+              -74.3924905,
+              40.5611526
+            ],
+            [
+              -73.7033626,
+              40.5554731
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0/items/HLS.L30.T18TWL.2021039T153324.v2.0"
+        },
+        {
+          "rel": "parent",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "collection",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD",
+          "type": "application/json",
+          "title": "LPCLOUD"
+        },
+        {
+          "rel": "provider",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2210272204-LPCLOUD.json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2210272204-LPCLOUD.umm_json"
+        }
+      ],
+      "assets": {
+        "B05": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B05.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B05.tif"
+        },
+        "B06": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B06.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B06.tif"
+        },
+        "B01": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B01.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B01.tif"
+        },
+        "B11": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B11.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B11.tif"
+        },
+        "B03": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B03.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B03.tif"
+        },
+        "Fmask": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.Fmask.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.Fmask.tif"
+        },
+        "B04": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B04.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B04.tif"
+        },
+        "VAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.VAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.VAA.tif"
+        },
+        "B09": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B09.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B09.tif"
+        },
+        "VZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.VZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.VZA.tif"
+        },
+        "B02": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B02.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B02.tif"
+        },
+        "SAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.SAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.SAA.tif"
+        },
+        "SZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.SZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.SZA.tif"
+        },
+        "B07": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B07.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B07.tif"
+        },
+        "B10": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.B10.tif",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.B10.tif"
+        },
+        "browse": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/HLSL30.020/HLS.L30.T18TWL.2021039T153324.v2.0/HLS.L30.T18TWL.2021039T153324.v2.0.jpg",
+          "type": "image/jpeg",
+          "title": "Download HLS.L30.T18TWL.2021039T153324.v2.0.jpg"
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2210272204-LPCLOUD.xml",
+          "type": "application/xml"
+        }
+      },
+      "bbox": [
+        -74.392491,
+        40.555473,
+        -73.6838,
+        41.548251
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "collection": "HLSL30.v2.0"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "id": "HLS.L30.T18TWL.2021055T153318.v2.0",
+      "properties": {
+        "eo:cloud_cover": 97,
+        "datetime": "2021-02-24T15:33:18.868000Z",
+        "start_datetime": "2021-02-24T15:33:18.868Z",
+        "end_datetime": "2021-02-24T15:33:42.759Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.7033626,
+              40.5554731
+            ],
+            [
+              -73.6837996,
+              41.5443115
+            ],
+            [
+              -74.0959359,
+              41.5482907
+            ],
+            [
+              -74.3978058,
+              40.5611805
+            ],
+            [
+              -73.7033626,
+              40.5554731
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0/items/HLS.L30.T18TWL.2021055T153318.v2.0"
+        },
+        {
+          "rel": "parent",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "collection",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD",
+          "type": "application/json",
+          "title": "LPCLOUD"
+        },
+        {
+          "rel": "provider",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2147353642-LPCLOUD.json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2147353642-LPCLOUD.umm_json"
+        }
+      ],
+      "assets": {
+        "B09": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B09.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B09.tif"
+        },
+        "B07": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B07.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B07.tif"
+        },
+        "B04": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B04.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B04.tif"
+        },
+        "B02": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B02.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B02.tif"
+        },
+        "SZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.SZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.SZA.tif"
+        },
+        "B01": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B01.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B01.tif"
+        },
+        "B11": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B11.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B11.tif"
+        },
+        "B10": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B10.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B10.tif"
+        },
+        "VZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.VZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.VZA.tif"
+        },
+        "Fmask": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.Fmask.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.Fmask.tif"
+        },
+        "B05": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B05.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B05.tif"
+        },
+        "SAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.SAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.SAA.tif"
+        },
+        "B06": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B06.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B06.tif"
+        },
+        "VAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.VAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.VAA.tif"
+        },
+        "B03": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.B03.tif",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.B03.tif"
+        },
+        "browse": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/HLSL30.020/HLS.L30.T18TWL.2021055T153318.v2.0/HLS.L30.T18TWL.2021055T153318.v2.0.jpg",
+          "type": "image/jpeg",
+          "title": "Download HLS.L30.T18TWL.2021055T153318.v2.0.jpg"
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2147353642-LPCLOUD.xml",
+          "type": "application/xml"
+        }
+      },
+      "bbox": [
+        -74.397806,
+        40.555473,
+        -73.6838,
+        41.548291
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "collection": "HLSL30.v2.0"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "id": "HLS.L30.T18TWL.2021062T153926.v2.0",
+      "properties": {
+        "eo:cloud_cover": 8,
+        "datetime": "2021-03-03T15:39:26.373000Z",
+        "start_datetime": "2021-03-03T15:39:26.373Z",
+        "end_datetime": "2021-03-03T15:39:50.251Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.7033626,
+              40.5554731
+            ],
+            [
+              -73.6837996,
+              41.5443115
+            ],
+            [
+              -75.0002398,
+              41.5518447
+            ],
+            [
+              -75.0002362,
+              40.5627499
+            ],
+            [
+              -73.7033626,
+              40.5554731
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0/items/HLS.L30.T18TWL.2021062T153926.v2.0"
+        },
+        {
+          "rel": "parent",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "collection",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD",
+          "type": "application/json",
+          "title": "LPCLOUD"
+        },
+        {
+          "rel": "provider",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2146941020-LPCLOUD.json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2146941020-LPCLOUD.umm_json"
+        }
+      ],
+      "assets": {
+        "SZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.SZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.SZA.tif"
+        },
+        "Fmask": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.Fmask.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.Fmask.tif"
+        },
+        "B02": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B02.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B02.tif"
+        },
+        "B03": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B03.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B03.tif"
+        },
+        "B07": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B07.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B07.tif"
+        },
+        "B06": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B06.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B06.tif"
+        },
+        "SAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.SAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.SAA.tif"
+        },
+        "VAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.VAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.VAA.tif"
+        },
+        "B01": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B01.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B01.tif"
+        },
+        "B05": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B05.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B05.tif"
+        },
+        "B09": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B09.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B09.tif"
+        },
+        "B10": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B10.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B10.tif"
+        },
+        "B11": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B11.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B11.tif"
+        },
+        "B04": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.B04.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.B04.tif"
+        },
+        "VZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.VZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.VZA.tif"
+        },
+        "browse": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/HLSL30.020/HLS.L30.T18TWL.2021062T153926.v2.0/HLS.L30.T18TWL.2021062T153926.v2.0.jpg",
+          "type": "image/jpeg",
+          "title": "Download HLS.L30.T18TWL.2021062T153926.v2.0.jpg"
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2146941020-LPCLOUD.xml",
+          "type": "application/xml"
+        }
+      },
+      "bbox": [
+        -75.00024,
+        40.555473,
+        -73.6838,
+        41.551845
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "collection": "HLSL30.v2.0"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "id": "HLS.L30.T18TWL.2021071T153310.v2.0",
+      "properties": {
+        "eo:cloud_cover": 43,
+        "datetime": "2021-03-12T15:33:10.366000Z",
+        "start_datetime": "2021-03-12T15:33:10.366Z",
+        "end_datetime": "2021-03-12T15:33:34.249Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.7033626,
+              40.5554731
+            ],
+            [
+              -73.6837996,
+              41.5443115
+            ],
+            [
+              -74.0905409,
+              41.5482482
+            ],
+            [
+              -74.3921362,
+              40.5611508
+            ],
+            [
+              -73.7033626,
+              40.5554731
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0/items/HLS.L30.T18TWL.2021071T153310.v2.0"
+        },
+        {
+          "rel": "parent",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "collection",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD",
+          "type": "application/json",
+          "title": "LPCLOUD"
+        },
+        {
+          "rel": "provider",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2146928624-LPCLOUD.json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2146928624-LPCLOUD.umm_json"
+        }
+      ],
+      "assets": {
+        "B04": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B04.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B04.tif"
+        },
+        "B10": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B10.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B10.tif"
+        },
+        "B02": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B02.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B02.tif"
+        },
+        "VAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.VAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.VAA.tif"
+        },
+        "B06": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B06.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B06.tif"
+        },
+        "B09": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B09.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B09.tif"
+        },
+        "B11": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B11.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B11.tif"
+        },
+        "SAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.SAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.SAA.tif"
+        },
+        "B01": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B01.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B01.tif"
+        },
+        "B03": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B03.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B03.tif"
+        },
+        "VZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.VZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.VZA.tif"
+        },
+        "Fmask": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.Fmask.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.Fmask.tif"
+        },
+        "B07": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B07.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B07.tif"
+        },
+        "B05": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.B05.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.B05.tif"
+        },
+        "SZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.SZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.SZA.tif"
+        },
+        "browse": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/HLSL30.020/HLS.L30.T18TWL.2021071T153310.v2.0/HLS.L30.T18TWL.2021071T153310.v2.0.jpg",
+          "type": "image/jpeg",
+          "title": "Download HLS.L30.T18TWL.2021071T153310.v2.0.jpg"
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2146928624-LPCLOUD.xml",
+          "type": "application/xml"
+        }
+      },
+      "bbox": [
+        -74.392136,
+        40.555473,
+        -73.6838,
+        41.548248
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "collection": "HLSL30.v2.0"
+    },
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "id": "HLS.L30.T18TWL.2021078T153917.v2.0",
+      "properties": {
+        "eo:cloud_cover": 46,
+        "datetime": "2021-03-19T15:39:17.555000Z",
+        "start_datetime": "2021-03-19T15:39:17.555Z",
+        "end_datetime": "2021-03-19T15:39:41.433Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.7033626,
+              40.5554731
+            ],
+            [
+              -73.6837996,
+              41.5443115
+            ],
+            [
+              -75.0002398,
+              41.5518447
+            ],
+            [
+              -75.0002362,
+              40.5627499
+            ],
+            [
+              -73.7033626,
+              40.5554731
+            ]
+          ]
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0/items/HLS.L30.T18TWL.2021078T153917.v2.0"
+        },
+        {
+          "rel": "parent",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "collection",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD",
+          "type": "application/json",
+          "title": "LPCLOUD"
+        },
+        {
+          "rel": "provider",
+          "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2146799828-LPCLOUD.json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2146799828-LPCLOUD.umm_json"
+        }
+      ],
+      "assets": {
+        "B11": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B11.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B11.tif"
+        },
+        "B03": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B03.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B03.tif"
+        },
+        "VAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.VAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.VAA.tif"
+        },
+        "VZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.VZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.VZA.tif"
+        },
+        "B04": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B04.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B04.tif"
+        },
+        "B07": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B07.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B07.tif"
+        },
+        "SZA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.SZA.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.SZA.tif"
+        },
+        "B10": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B10.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B10.tif"
+        },
+        "Fmask": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.Fmask.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.Fmask.tif"
+        },
+        "B06": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B06.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B06.tif"
+        },
+        "B02": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B02.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B02.tif"
+        },
+        "B05": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B05.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B05.tif"
+        },
+        "SAA": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.SAA.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.SAA.tif"
+        },
+        "B09": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B09.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B09.tif"
+        },
+        "B01": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.B01.tif",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.B01.tif"
+        },
+        "browse": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/HLSL30.020/HLS.L30.T18TWL.2021078T153917.v2.0/HLS.L30.T18TWL.2021078T153917.v2.0.jpg",
+          "type": "image/jpeg",
+          "title": "Download HLS.L30.T18TWL.2021078T153917.v2.0.jpg"
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2146799828-LPCLOUD.xml",
+          "type": "application/xml"
+        }
+      },
+      "bbox": [
+        -75.00024,
+        40.555473,
+        -73.6838,
+        41.551845
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+      ],
+      "collection": "HLSL30.v2.0"
+    }
+  ]
+}
